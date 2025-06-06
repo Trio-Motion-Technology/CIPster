@@ -6,6 +6,7 @@
 #ifndef BYTE_BUFS_H_
 #define BYTE_BUFS_H_
 
+#include <cstdint>       // for uint8_t, uint16_t, uint32_t, uint64_t
 #include <string>
 #include <stdexcept>    // for the convenience of clients of these classes, which throw
 
